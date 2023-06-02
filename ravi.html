@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+    <title>premkumar</title>
+    <style>
+        body{
+            background-image: url('assets/img/logo/login.jpg');
+        }
+        .LoginContainer{
+            background: rgba(185, 150, 150, 0.23);
+            height: 550px;
+            width: 450px;
+            position: absolute;
+            top: 59%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 8px;
+        }
+        .LoginLayout{
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%,-90%);
+            width : 80%;
+        }
+        #userRef{
+            border: none;
+            height: 60px;
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 20px;
+            color: rgb(0, 0, 0);
+        }
+        #passRef{
+            border: none;
+            height: 60px;
+            width: 100%;
+            border-radius: 5px;
+            margin-top: 20px;
+            color: rgb(0, 0, 0);
+        }
+        #userRef:focus
+        {
+            outline: none;
+            border: none;
+        }
+        .InputUser{
+            margin-top: 20px;
+        }
+        .LoginLayout button{
+            margin: 40px 0 0 0;
+            width: 100%;
+            border-radius: 5px;
+            cursor : pointer;
+            height: 50px;
+            background-color: rgba(185, 150, 150, 0.23;
+            color: white;
+            
+        }
+        .BgLayer{
+            top: 0;
+            left: 0;
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+            opacity: 0%;
+            z-index: -1;
+        }
+    </style>
+ <body>
+         
+     
+    <div class="BgLayer">
+
+    </div>
+    <div class="LoginContainer">
+        <div class="LoginLayout">
+            <h1 style= "color:white"><center>LOGIN</center></h1>
+            <form>
+                <input style="background-color:rgb(255, 255, 255)" class="InputUser" name="user" id="userRef" type="email" placeholder="  Email or phone number" required>
+                <input style="background-color:rgb(255, 255, 255)" class="InputPass" name="pass" id="passRef" type="password" placeholder="  Password" required >
+                <button type="submit" style="border-style: none;"> <a href="index.html" style="text-decoration: none;font-size:medium;color:black">sign in</a></button><br><br><br>
+                <center><a href="" style="margin-top: 70%; text-decoration:none;">Dont have a account? Register.</a></center>
+            </form>
+        </div>
+    </div>
+      
+  </body>
+</html>
