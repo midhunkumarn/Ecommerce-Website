@@ -1,4 +1,4 @@
-![image](https://github.com/midhunkumarn/Ecommerce-Website/assets/130952023/67f6f67f-a202-48ab-9d60-c75f278bfd41)This project is E-COMMERCE WEBSITE USING WOOCOMMERCE ,We used HTML, CSS, JS, SCSS, PHP these languages in this project. 
+This project is E-COMMERCE WEBSITE USING WOOCOMMERCE ,We used HTML, CSS, JS, SCSS, PHP these languages in this project. 
 you may run by server.
 php is used for db purpose you can run it by server. 
 there is no payment gate ways.
